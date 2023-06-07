@@ -1,0 +1,173 @@
+body
+{
+    font-family: 'Montserrat', serif;
+    text-align: center;
+}
+
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h3
+{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+ 
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid
+{
+    padding: 3% 15% 6%;
+}
+
+/* Navbar */
+.navbar
+{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-size:1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Button */
+.b1
+{
+    margin:15% 3% 5% 0;
+}
+
+/* Title image */
+
+.title-img
+{
+    width: 80%;
+}
+
+/* Education Box */
+
+.edbox{
+    
+    text-align: center;
+}
+
+#features
+{
+    line-height: 2;
+    padding: 7% 15%;
+}
+
+.icon
+{
+    padding-bottom: 5%;
+    color:#ef8172;
+}
+
+.icon:hover
+{
+    color:#ff4c68;
+}
+
+/* skills */
+
+#skills
+{
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+    line-height: 3;
+    color: #fff;
+
+}
+
+.skill
+{
+    font-size: 1.5rem;
+}
+
+/* projects */
+
+.card{
+    text-align: center;
+}
+
+#projects{
+    padding:100px;
+}
+
+.project-card{
+    padding:3% 2%;
+}
+
+.pro{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+
+@media (max-width:992px) {
+    #title {
+        text-align: center;
+    }
+}
+
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 7%;
+     
+}
+
+.foot{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.b2{
+    margin:2% 3% 3% 0;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    padding: 5% 7%;
+    line-height: 2;
+}
+
+.ic{
+    margin: 0 9px;
+}
+
+.cp{
+    padding:8px 0;
+    color: gray;
+}
